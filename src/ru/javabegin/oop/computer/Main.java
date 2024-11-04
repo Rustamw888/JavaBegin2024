@@ -1,10 +1,10 @@
 package ru.javabegin.oop.computer;
 
-public class Main {
+import ru.javabegin.oop.car.Car;
+
+public class Main extends Car {
 
   public static void main(String[] args) {
-    Computer computer = new Computer();
-    computer.on();
-    computer.off();
+
   }
 }
