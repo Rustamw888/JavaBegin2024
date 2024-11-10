@@ -2,7 +2,7 @@ package ru.javabegin.oop.computer2;
 
 import ru.javabegin.oop.car.Car;
 
-public class Main extends Car {
+public class Main {
 
   public static void main(String[] args) {
 
@@ -14,5 +14,6 @@ public class Main extends Car {
     computer1.setName("IBM");
     computer1.on();
     computer1.off();
+
   }
 }
